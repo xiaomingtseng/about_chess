@@ -7,32 +7,32 @@ class PiecesScreen extends StatelessWidget {
   final List<ChessPiece> pieces = [
     ChessPiece(
       name: "國王",
-      image: Image.asset("lib/assets/pieces/alpha/wK.png"),
+      image: Image.asset("assets/pieces/alpha/wK.png"),
       description: "最重要的棋子",
     ),
     ChessPiece(
       name: "皇后",
-      image: Image.asset("lib/assets/pieces/alpha/wQ.png"),
+      image: Image.asset("assets/pieces/alpha/wQ.png"),
       description: "最強的棋子",
     ),
     ChessPiece(
       name: "主教",
-      image: Image.asset("lib/assets/pieces/alpha/wB.png"),
+      image: Image.asset("assets/pieces/alpha/wB.png"),
       description: "只能走對角線",
     ),
     ChessPiece(
       name: "騎士",
-      image: Image.asset("lib/assets/pieces/alpha/wN.png"),
+      image: Image.asset("assets/pieces/alpha/wN.png"),
       description: "L型跳躍移動",
     ),
     ChessPiece(
       name: "城堡",
-      image: Image.asset("lib/assets/pieces/alpha/wR.png"),
+      image: Image.asset("assets/pieces/alpha/wR.png"),
       description: "直線移動",
     ),
     ChessPiece(
       name: "兵",
-      image: Image.asset("lib/assets/pieces/alpha/wP.png"),
+      image: Image.asset("assets/pieces/alpha/wP.png"),
       description: "前進一步，升變能力",
     ),
   ];

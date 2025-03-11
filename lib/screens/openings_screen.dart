@@ -7,10 +7,10 @@ class OpeningsScreen extends StatelessWidget {
     {
       "title": "義大利開局",
       "desc": "1.e4 e5 2.Nf3 Nc6 3.Bc4",
-      "image": "lib/assets/opening1.jpg",
+      "image": "assets/opening1.jpg",
     },
-    {"title": "西西里防禦", "desc": "1.e4 c5", "image": "lib/assets/opening2.jpg"},
-    {"title": "法國防禦", "desc": "1.e4 e6", "image": "lib/assets/opening3.jpg"},
+    {"title": "西西里防禦", "desc": "1.e4 c5", "image": "assets/opening2.jpg"},
+    {"title": "法國防禦", "desc": "1.e4 e6", "image": "assets/opening3.jpg"},
   ];
 
   @override
